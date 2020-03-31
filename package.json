@@ -1,0 +1,31 @@
+{
+  "name": "triludo.com",
+  "version": "1.0.0",
+  "description": "Website using GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglassllc/triludo.com.git"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": {
+    "name": "Douglass LLC",
+    "email": "support@douglassllc.com",
+    "url": "http://www.douglassllc.com"
+  },
+  "bugs": "https://github.com/douglassllc/triludo.com/issues",
+  "homepage": "https://github.com/douglassllc/triludo.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "gh-pages"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
