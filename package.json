@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "parcel build src/index.html",
-    "serve": "parcel serve src/index.tml",
+    "serve": "parcel serve src/index.html",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
