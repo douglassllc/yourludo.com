@@ -10,6 +10,7 @@
     "serve": "parcel serve src/index.html",
     "predeploy": "npm run build && echo 'triludo.com' > ./dist/CNAME",
     "lint": "standard",
+    "predeploy": "npm run build && echo 'triludo.com' > ./build/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "config": {
