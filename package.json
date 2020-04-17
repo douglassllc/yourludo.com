@@ -4,11 +4,16 @@
   "description": "Website using GitHub Pages",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html",
     "serve": "parcel serve src/index.html",
     "predeploy": "npm run build && echo 'triludo.com' > ./dist/CNAME",
+    "lint": "standard",
     "deploy": "gh-pages -d dist"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   },
   "repository": {
     "type": "git",
@@ -26,8 +31,11 @@
     "gh-pages"
   ],
   "devDependencies": {
+    "commitizen": "^4.0.4",
+    "cz-conventional-changelog": "^3.1.0",
     "gh-pages": "^2.2.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "standard": "^14.3.3"
   },
   "dependencies": {
     "bulma": "^0.8.1"
