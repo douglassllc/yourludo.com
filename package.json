@@ -12,8 +12,10 @@
     "lint": "standard",
     "deploy": "gh-pages -d dist"
   },
-  "czConfig": {
+  "config": {
+    "commitizen": {
     "path": "node_modules/cz-conventional-changelog"
+    }
   },
   "repository": {
     "type": "git",
