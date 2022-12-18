@@ -1,5 +1,5 @@
 {
-  "name": "triludo.com",
+  "name": "yourludo.com",
   "version": "1.0.0",
   "description": "Website using GitHub Pages",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html",
     "serve": "parcel serve src/index.html",
-    "predeploy": "npm run build && echo 'triludo.com' > ./build/CNAME",
+    "predeploy": "npm run build && echo 'yourludo.com' > ./build/CNAME",
     "lint": "standard",
     "deploy": "gh-pages -d dist"
   },
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/douglassllc/triludo.com.git"
+    "url": "git+https://github.com/douglassllc/yourludo.com.git"
   },
   "author": {
     "name": "Douglass LLC",
     "email": "support@douglassllc.com",
     "url": "http://www.douglassllc.com"
   },
-  "bugs": "https://github.com/douglassllc/triludo.com/issues",
-  "homepage": "https://github.com/douglassllc/triludo.com",
+  "bugs": "https://github.com/douglassllc/yourludo.com/issues",
+  "homepage": "https://github.com/douglassllc/yourludo.com",
   "license": "MIT",
   "keywords": [
     "gh-pages"

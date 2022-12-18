@@ -1,4 +1,4 @@
-# triludo.com website
+# yourludo.com website
 
 Testing usage of GitHub Pages and Bulma 
 
