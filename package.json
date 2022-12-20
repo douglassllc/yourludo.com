@@ -8,7 +8,7 @@
     "prebuild": "rm -rf dist",
     "build": "parcel build src/index.html",
     "serve": "parcel serve src/index.html",
-    "predeploy": "npm run build && echo 'yourludo.com' > ./build/CNAME",
+    "predeploy": "npm run build && echo 'yourludo.com' > ./dist/CNAME",
     "lint": "standard",
     "deploy": "gh-pages -d dist",
     "release": "standard-version --no-verify",
