@@ -1,3 +1,7 @@
+* {
+  background-color: green;
+}
+
 .hero.is-info {
   background-color: lightblue;
 }
