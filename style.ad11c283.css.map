@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,cACE,uBACF,CAEA,iBACE,gBACF","file":"style.ad11c283.css","sourceRoot":"../src","sourcesContent":[".hero.is-info {\n  background-color: purple;\n}\n\n.navbar-item img {\n  min-height: 100px;\n}\n"]}
